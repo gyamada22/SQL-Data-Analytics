@@ -1,7 +1,8 @@
 # 🗄️ SQL Data Engineering Journey
 
 ## 📊 Progresso em Tempo Real 🚀
-![Progresso](https://progress-bar.xyz/100/?title=Conclusão&width=400&color=4CAF50)
+- ✅ Conteúdo Básico & Intermediário: 100% estudado
+- 🚀 Avançado: Em progresso
 
 ## 📈 **Próxima Fase: Aplicação & Excelência**
 
