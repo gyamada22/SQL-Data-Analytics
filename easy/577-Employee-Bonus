@@ -1,0 +1,18 @@
+# 577. Employee Bonus
+
+**Data:** 11/12/2025  
+**Dificuldade:** Easy  
+**Tópicos:** SQL, LEFT JOIN, NULL Handling  
+**Banco:** SQL Server  
+**Link:** [Employee Bonus - LeetCode](https://leetcode.com/problems/employee-bonus/description/)
+
+## Descrição
+Encontre o nome dos funcionários que têm bônus menor que 1000 ou não têm bônus.
+
+## Solução
+
+```sql
+SELECT e.name, b.bonus
+FROM Employee e 
+LEFT JOIN Bonus b ON e.empid = b.empid
+WHERE b.bonus < 1000 OR b.bonus IS NULL;
