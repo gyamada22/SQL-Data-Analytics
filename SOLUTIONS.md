@@ -49,20 +49,20 @@
 ### 🧠 Advanced Select and Joins (3 problemas)
 | # | Problema | Tópicos | Data | Link |
 |---|----------|---------|------|------|
-| 610 | Triangle Judgement | `CASE`, conditional logic | 16/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/610.%20Triangle%20Judgement.md) |
-| 1731 | The Number of Employees Which Report to Each Employee | `SELF JOIN`, `COUNT`, `GROUP BY` | 16/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1731.%20The%20Number%20of%20Employees%20Which%20Report%20to%20Each%20Employee.md) |
-| 1789 | Primary Department for Each Employee | `GROUP BY`, `CASE`, aggregation | 16/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1789.%20Primary%20Department%20for%20Each%20Employee.md) |
+| 610 | Triangle Judgement | `CASE`, conditional logic | 15/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/610.%20Triangle%20Judgement.md) |
+| 1731 | The Number of Employees Which Report to Each Employee | `SELF JOIN`, `COUNT`, `GROUP BY` | 14/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1731.%20The%20Number%20of%20Employees%20Which%20Report%20to%20Each%20Employee.md) |
+| 1789 | Primary Department for Each Employee | `GROUP BY`, `CASE`, aggregation | 14/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1789.%20Primary%20Department%20for%20Each%20Employee.md) |
 
 
 ### 🔁 Subqueries (1 problema)
 | # | Problema | Tópicos | Data | Link |
 |---|----------|---------|------|------|
-| 1978 | Employees Whose Manager Left the Company | Subquery, `NOT IN`, `WHERE` | 16/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1978.%20Employees%20Whose%20Manager%20Left%20the%20Company.md) |
+| 1978 | Employees Whose Manager Left the Company | Subquery, `NOT IN`, `WHERE` | 15/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1978.%20Employees%20Whose%20Manager%20Left%20the%20Company.md) |
 
 ### 🔤 Advanced String Functions / Regex / Clause (1 problema)
 | # | Problema | Tópicos | Data | Link |
 |---|----------|---------|------|------|
-| 1667 | Fix Names in a Table | String Functions, `UPPER`, `LOWER` | 16/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1667.%20Fix%20Names%20in%20a%20Table.md) |
+| 1667 | Fix Names in a Table | String Functions, `UPPER`, `LOWER` | 15/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1667.%20Fix%20Names%20in%20a%20Table.md) |
 
 ---
 
