@@ -1,12 +1,12 @@
 # 📋 Lista Completa de Soluções SQL
 
 ## 📊 Estatísticas Gerais
-- **Total resolvidos:** 22 problemas
-- **Última atualização:** 14 de Dezembro de 2025
+- **Total resolvidos:** 27 problemas
+- **Última atualização:** 15 de Dezembro de 2025
 
 ---
 
-## ✅ Nível Easy (22 problemas)
+## ✅ Nível Easy (27 problemas)
 
 ### 🔍 Select (5 problemas)
 | # | Problema | Tópicos | Data | Link |
@@ -46,17 +46,23 @@
 | 1729 | Find Followers Count | `COUNT`, `GROUP BY`, `ORDER BY` | 14/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1729.%20Find%20Followers%20Count.md) |
 | 619 | Biggest Single Number | `GROUP BY`, `HAVING`, `MAX` | 14/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/619.%20Biggest%20Single%20Number.md) |
 
-### 🧠 Advanced Select and Joins (2 problemas)
+### 🧠 Advanced Select and Joins (3 problemas)
 | # | Problema | Tópicos | Data | Link |
 |---|----------|---------|------|------|
-| 1731 | The Number of Employees Which Report to Each Employee | `SELF JOIN`, `COUNT`, `GROUP BY` | 14/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1731.%20The%20Number%20of%20Employees%20Which%20Report%20to%20Each%20Employee.md) |
-| 1789 | Primary Department for Each Employee | `CASE`, `GROUP BY` | 14/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1789.%20Primary%20Department%20for%20Each%20Employee.md) |
+| 610 | Triangle Judgement | `CASE`, conditional logic | 16/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/610.%20Triangle%20Judgement.md) |
+| 1731 | The Number of Employees Which Report to Each Employee | `SELF JOIN`, `COUNT`, `GROUP BY` | 16/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1731.%20The%20Number%20of%20Employees%20Which%20Report%20to%20Each%20Employee.md) |
+| 1789 | Primary Department for Each Employee | `GROUP BY`, `CASE`, aggregation | 16/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1789.%20Primary%20Department%20for%20Each%20Employee.md) |
 
-### 🔁 Subqueries (0 problemas)
-*Em breve*
 
-### 🔤 Advanced String Functions / Regex / Clause (0 problemas)
-*Em breve*
+### 🔁 Subqueries (1 problema)
+| # | Problema | Tópicos | Data | Link |
+|---|----------|---------|------|------|
+| 1978 | Employees Whose Manager Left the Company | Subquery, `NOT IN`, `WHERE` | 16/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1978.%20Employees%20Whose%20Manager%20Left%20the%20Company.md) |
+
+### 🔤 Advanced String Functions / Regex / Clause (1 problema)
+| # | Problema | Tópicos | Data | Link |
+|---|----------|---------|------|------|
+| 1667 | Fix Names in a Table | String Functions, `UPPER`, `LOWER` | 16/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1667.%20Fix%20Names%20in%20a%20Table.md) |
 
 ---
 
@@ -67,3 +73,9 @@
 
 ## 🔴 Nível Difícil (0 problemas)
 *Desafios futuros após dominar o nível Medium*
+
+---
+
+## 🟡 Nível Médio (0 problemas)
+*Começando em breve! após terminar o nível Easy*
+
