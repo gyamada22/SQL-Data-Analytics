@@ -1,12 +1,12 @@
 # 📋 Lista Completa de Soluções SQL
 
 ## 📊 Estatísticas Gerais
-- **Total resolvidos:** 27 problemas
-- **Última atualização:** 15 de Dezembro de 2025
+- **Total resolvidos:** 32 problemas
+- **Última atualização:** 16 de Dezembro de 2025
 
 ---
 
-## ✅ Nível Easy (27 problemas)
+## ✅ Nível Easy (32 problemas)
 
 ### 🔍 Select (5 problemas)
 | # | Problema | Tópicos | Data | Link |
@@ -59,10 +59,15 @@
 |---|----------|---------|------|------|
 | 1978 | Employees Whose Manager Left the Company | Subquery, `NOT IN`, `WHERE` | 15/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1978.%20Employees%20Whose%20Manager%20Left%20the%20Company.md) |
 
-### 🔤 Advanced String Functions / Regex / Clause (1 problema)
+### 🔤 Advanced String Functions / Regex / Clause (6 problemas)
 | # | Problema | Tópicos | Data | Link |
 |---|----------|---------|------|------|
-| 1667 | Fix Names in a Table | String Functions, `UPPER`, `LOWER` | 15/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1667.%20Fix%20Names%20in%20a%20Table.md) |
+| 1667 | Fix Names in a Table | String Functions, UPPER, LOWER | 15/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1667.%20Fix%20Names%20in%20a%20Table.md) |
+| 1756 | Patients With a Condition | LIKE, pattern matching | 16/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1756.%20Patients%20With%20a%20Condition.md) |
+| 1822 | Delete Duplicate Emails | CTE, ROW_NUMBER, DELETE | 16/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1822.%20Delete%20Duplicate%20Emails.md) |
+| 1821 | Group Sold Products By The Date | GROUP BY, STRING_AGG, COUNT | 16/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1821.%20Group%20Sold%20Products%20By%20The%20Date.md) |
+| 1803 | List The Products Ordered in a Period | JOIN, GROUP BY, HAVING | 16/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1803.%20List%20The%20Products%20Ordered%20in%20a%20Period.md) |
+| 1824 | Find Users With Valid E‑Mails | LIKE, SUBSTRING, pattern matching | 16/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1824.%20Find%20Users%20With%20Valid%20E%E2%80%91Mails.md) |
 
 ---
 
