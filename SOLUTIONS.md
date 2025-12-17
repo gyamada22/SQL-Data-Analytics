@@ -1,5 +1,10 @@
 # 📋 Lista Completa de Soluções SQL
 
+## 🔗 Meu Perfil LeetCode
+[https://leetcode.com/u/gyamada22/](https://leetcode.com/u/gyamada22/)
+
+---
+
 ## 📊 Estatísticas Gerais
 - **Total resolvidos:** 32 problemas
 - **Última atualização:** 16 de Dezembro de 2025
