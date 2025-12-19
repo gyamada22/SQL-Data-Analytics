@@ -1,0 +1,17 @@
+# 175. Combine Two Tables
+
+**Data:** 19/12/2025  
+**Dificuldade:** Easy  
+**Tópicos:** SQL, LEFT JOIN  
+**Link:** https://leetcode.com/problems/combine-two-tables/
+
+## Descrição
+Combine as tabelas `Person` e `Address` para mostrar o `firstname`, `lastname`, `city` e `state` de cada pessoa. Se uma pessoa não tiver um endereço correspondente, mostre `null` para `city` e `state`. Retorne o resultado em qualquer ordem.
+
+## Solução (SQL Server)
+
+```sql
+SELECT firstname, lastname, city, state
+FROM Person
+LEFT JOIN Address
+    ON Person.personId = Address.personId;
