@@ -6,12 +6,12 @@
 ---
 
 ## 📊 Estatísticas Gerais
-- **Total resolvidos:** 34 problemas
-- **Última atualização:** 17 de Dezembro de 2025
+- **Total resolvidos:** 37 problemas
+- **Última atualização:** 18 de Dezembro de 2025
 
 ---
 
-## ✅ Nível Easy/Medium (34 problemas)
+## ✅ Nível Easy/Medium (37 problemas)
 
 ### 🔍 Select (5 problemas)
 | # | Problema | Tópicos | Data | Link |
@@ -36,7 +36,7 @@
 | 🟡 1934 | Confirmation Rate | `LEFT JOIN`, `GROUP BY`, `CASE`, `ROUND` | 17/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1934.%20Confirmation%20Rate.md) |
 
 
-### 📈 Basic Aggregate Functions (5 problemas)
+### 📈 Basic Aggregate Functions (8 problemas)
 | # | Problema | Tópicos | Data | Link |
 |----|----------|---------|------|------|
 | 🟢 620 | Not Boring Movies | `WHERE`, `MOD`, `ORDER BY` | 11/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/620.%20Not%20Boring%20Movies.md) |
@@ -44,6 +44,9 @@
 | 🟢 1075 | Project Employees I | `JOIN`, `AVG`, `ROUND` | 11/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1075.%20Project%20Employees.md) |
 | 🟢 1633 | Percentage of Users Attended a Contest | `GROUP BY`, Subquery, `ROUND` | 11/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1633.%20Percentage%20of%20Users%20Attended%20a%20Contest.md) |
 | 🟢 1211 | Queries Quality and Percentage | `AVG`, `CASE`, `ROUND`, `NULLIF`, `GROUP BY` | 11/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1211.%20Queries%20Quality%20and%20Percentage.md) |
+| 🟡 1193 | Monthly Transactions I | `GROUP BY`, `COUNT`, `SUM`, `FORMAT` | 18/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1193.%20Monthly%20Transactions%20I.md) |
+| 🟡 1174 | Immediate Food Delivery II | `ROW_NUMBER`, `CASE`, `ROUND` | 18/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1174.%20Immediate%20Food%20Delivery%20II.md) |
+| 🟡 550 | Game Play Analysis IV | `MIN`, `DATEADD`, `ROUND`, `JOIN` | 18/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/550.%20Game%20Play%20Analysis%20IV.md) |
 
 ### 🔃 Sorting and Grouping (5 problemas)
 | # | Problema | Tópicos | Data | Link |
