@@ -17,10 +17,9 @@
 |---|----------|---------|------|------|
 | 🟡 570 | Managers With at Least 5 Direct Reports | `JOIN`, `GROUP BY`, `COUNT` | 17/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/570.%20Managers%20With%20at%20Least%205%20Direct%20Reports.md) |
 | 🟡 1934 | Confirmation Rate | `LEFT JOIN`, `GROUP BY`, `CASE`, `ROUND` | 17/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1934.%20Confirmation%20Rate.md) |
-| 🟡 1193 | Monthly Transactions I | `GROUP BY`, `COUNT`, `SUM`, `FORMAT` | 18/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1193.%20Monthly%20Transactions%20I.md) |
+| 🟡 1193 | Monthly Transactions I | `GROUP BY`, `COUNT`, `SUM`, `FORMAT` | 18/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1193.%20Monthly%20Transactions%20I.md) 
 | 🟡 1174 | Immediate Food Delivery II | `ROW_NUMBER`, `CASE`, `ROUND` | 18/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1174.%20Immediate%20Food%20Delivery%20II.md) |
 | 🟡 550 | Game Play Analysis IV | `MIN`, `DATEADD`, `ROUND`, `JOIN` | 18/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/550.%20Game%20Play%20Analysis%20IV.md) |
-
 | 🟢 1757 | Recyclable and Low Fat Products | `WHERE`, `AND` | 10/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1757.%20Recyclable%20and%20Low%20Fat%20Products.md) |
 | 🟢 584 | Find Customer Referee | `WHERE`, NULL handling | 10/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/584.%20Find%20Customer%20Referee.md) |
 | 🟢 595 | Big Countries | `WHERE`, `OR` | 10/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/595.%20Big%20Countries.md) |
