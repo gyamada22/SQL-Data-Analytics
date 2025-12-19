@@ -1,56 +1,105 @@
-# 📋 Lista Completa de Soluções SQL
+# 🚀 Portfólio de Soluções SQL | LeetCode
 
-## 🔗 Meu Perfil LeetCode
-[https://leetcode.com/u/gyamada22/](https://leetcode.com/u/gyamada22/)
+## 📊 Visão Geral
+
+![Total de Problemas Resolvidos](https://img.shields.io/badge/Resolvidos-39-blue)
+![Problemas Fáceis](https://img.shields.io/badge/Fáceis-34-brightgreen)
+![Problemas Médios](https://img.shields.io/badge/Médios-5-orange)
+![Última Atualização](https://img.shields.io/badge/Última%20Atualização-19/12/2025-informational)
+
+Este repositório documenta minha jornada de aprendizado e prática de SQL através da resolução de problemas no LeetCode. Meu objetivo é demonstrar domínio progressivo de conceitos, pensamento analítico e habilidades de resolução de problemas relevantes para cargos em Análise e Engenharia de Dados.
+
+### 🔗 Links
+- **📝 Meu Perfil no LeetCode:** [gyamada22](https://leetcode.com/u/gyamada22/)
+- **📂 Estrutura do Repositório:** As soluções estão organizadas em pastas por dificuldade (`easy/`, `medium/`).
 
 ---
 
-## 📊 Estatísticas Gerais
-- **Total resolvidos:** 39 problemas
-- **Última atualização:** 19/12/2025
+## 📝 Catálogo de Soluções
+
+### 🟢 **Problemas Fáceis (34)**
+
+| ID | Problema | Tópicos Principais | Link para a Solução |
+|----|----------|-------------------|---------------------|
+| 175 | Combine Two Tables | `JOIN` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/175*.%20Combine%20Two%20Tables.md) |
+| 181 | Employees Earning More Than Their Managers | `SELF JOIN`, `HAVING` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/181*.%20Employees%20Earning%20More%20Than%20Their%20Managers.md) |
+| 197 | Rising Temperature | `LAG()`, `DATEDIFF` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/197-rising-temperature.md) |
+| 577 | Employee Bonus | `LEFT JOIN`, NULL handling | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/577-Employee-Bonus.md) |
+| 584 | Find Customer Referee | `WHERE`, NULL handling | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/584.%20Find%20Customer%20Referee.md) |
+| 595 | Big Countries | `WHERE`, `OR` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/595.%20Big%20Countries.md) |
+| 596 | Classes More Than 5 Students | `GROUP BY`, `HAVING` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/596.%20Classes%20More%20Than%205%20Students.md) |
+| 610 | Triangle Judgement | `CASE` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/610.%20Triangle%20Judgement.md) |
+| 619 | Biggest Single Number | `GROUP BY`, `HAVING`, `MAX` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/619.%20Biggest%20Single%20Number.md) |
+| 620 | Not Boring Movies | `WHERE`, `MOD`, `ORDER BY` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/620.%20Not%20Boring%20Movies.md) |
+| 1141 | User Activity for the Past 30 Days I | `WHERE`, `COUNT`, `DISTINCT` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1141.%20User%20Activity%20for%20the%20Past%2030%20Days%20I.md) |
+| 1148 | Article Views I | `DISTINCT`, `WHERE` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1148.%20Article%20Views%20I.md) |
+| 1211 | Queries Quality and Percentage | `AVG`, `CASE`, `ROUND` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1211.%20Queries%20Quality%20and%20Percentage.md) |
+| 1251 | Average Selling Price | `LEFT JOIN`, `BETWEEN`, `ROUND` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1251.%20Average%20Selling%20Price.md) |
+| 1280 | Students and Examinations | `CROSS JOIN`, `COUNT`, `ISNULL` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1280.%20Students%20and%20Examinations.md) |
+| 1378 | Replace Employee ID With The Unique Identifier | `LEFT JOIN` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1378.%20Replace%20Employee%20ID%20With%20The%20Unique%20Identifier.md) |
+| 1581 | Customer Who Visited but Did Not Make Any Transactions | `LEFT JOIN`, `COUNT`, `GROUP BY` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1581.%20Customer%20Who%20Visited%20but%20Did%20Not%20Make%20Any%20Transactions.md) |
+| 1633 | Percentage of Users Attended a Contest | `GROUP BY`, `ROUND`, Subquery | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1633.%20Percentage%20of%20Users%20Attended%20a%20Contest.md) |
+| 1661 | Average Time of Process per Machine | `SELF JOIN`, `AVG`, `ROUND` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1661.%20Average%20Time%20of%20Process%20per%20Machine.md) |
+| 1667 | Fix Names in a Table | `UPPER`, `LOWER`, `SUBSTRING` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1667.%20Fix%20Names%20in%20a%20Table.md) |
+| 1683 | Invalid Tweets | `LEN` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1683.%20Invalid%20Tweets.md) |
+| 1729 | Find Followers Count | `COUNT`, `GROUP BY`, `ORDER BY` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1729.%20Find%20Followers%20Count.md) |
+| 1731 | The Number of Employees Which Report to Each Employee | `SELF JOIN`, `COUNT`, `GROUP BY` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1731.%20The%20Number%20of%20Employees%20Which%20Report%20to%20Each%20Employee.md) |
+| 1756 | Patients With a Condition | `LIKE` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1756.%20Patients%20With%20a%20Condition.md) |
+| 1757 | Recyclable and Low Fat Products | `WHERE`, `AND` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1757.%20Recyclable%20and%20Low%20Fat%20Products.md) |
+| 1789 | Primary Department for Each Employee | `GROUP BY`, `CASE`, `COUNT` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1789.%20Primary%20Department%20for%20Each%20Employee.md) |
+| 1803 | List The Products Ordered in a Period | `JOIN`, `GROUP BY`, `HAVING` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1803.%20List%20The%20Products%20Ordered%20in%20a%20Period.md) |
+| 1821 | Group Sold Products By The Date | `GROUP BY`, `STRING_AGG` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1821.%20Group%20Sold%20Products%20By%20The%20Date.md) |
+| 1824 | Find Users With Valid E-Mails | `LIKE`, `PATINDEX`, String Validation[citation:4] | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1824.%20Find%20Users%20With%20Valid%20E%E2%80%91Mails.md) |
+| 196 | Delete Duplicate Emails | CTE, `ROW_NUMBER`, `DELETE` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1822.%20Delete%20Duplicate%20Emails.md) |
+| 1978 | Employees Whose Manager Left the Company | Subquery, `NOT IN` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1978.%20Employees%20Whose%20Manager%20Left%20the%20Company.md) |
+| 2356 | Number of Unique Subjects Taught by Each Teacher | `COUNT(DISTINCT)`, `GROUP BY` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/2356.%20Number%20of%20Unique%20Subjects%20Taught%20by%20Each%20Teacher.md) |
+| 1068 | Product Sales Analysis I | `INNER JOIN` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1068.%20Product%20Sales%20Analysis%20I.md) |
+| 1075 | Project Employees I | `JOIN`, `AVG`, `ROUND` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1075.%20Project%20Employees.md) |
+
+### 🟡 **Problemas Médios (5)**
+
+| ID | Problema | Tópicos Principais | Link para a Solução |
+|----|----------|-------------------|---------------------|
+| 550 | Game Play Analysis IV | `JOIN`, `ROUND`, `MIN`, `DATEADD` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/550.%20Game%20Play%20Analysis%20IV.md) |
+| 570 | Managers With at Least 5 Direct Reports | `SELF JOIN`, `GROUP BY`, `COUNT`, `HAVING`[citation:3] | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/570.%20Managers%20With%20at%20Least%205%20Direct%20Reports.md) |
+| 1174 | Immediate Food Delivery II | `ROW_NUMBER`, `CASE`, `ROUND` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1174.%20Immediate%20Food%20Delivery%20II.md) |
+| 1193 | Monthly Transactions I | `GROUP BY`, `FORMAT`, `SUM`, `COUNT` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1193.%20Monthly%20Transactions%20I.md) |
+| 1934 | Confirmation Rate | `LEFT JOIN`, `GROUP BY`, `CASE`, `ROUND` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1934.%20Confirmation%20Rate.md) |
 
 ---
 
-## ✅ Soluções SQL (Orientado a Tópicos)
+## 📈 Análise e Insights
 
-| # | Problema | Tópicos | Data | Link |
-|---|----------|---------|------|------|
-| 🟡 570 | Managers With at Least 5 Direct Reports | `JOIN`, `GROUP BY`, `COUNT` | 17/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/570.%20Managers%20With%20at%20Least%205%20Direct%20Reports.md) |
-| 🟡 1934 | Confirmation Rate | `LEFT JOIN`, `GROUP BY`, `CASE`, `ROUND` | 17/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1934.%20Confirmation%20Rate.md) |
-| 🟡 1193 | Monthly Transactions I | `GROUP BY`, `COUNT`, `SUM`, `FORMAT` | 18/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1193.%20Monthly%20Transactions%20I.md) 
-| 🟡 1174 | Immediate Food Delivery II | `ROW_NUMBER`, `CASE`, `ROUND` | 18/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1174.%20Immediate%20Food%20Delivery%20II.md) |
-| 🟡 550 | Game Play Analysis IV | `MIN`, `DATEADD`, `ROUND`, `JOIN` | 18/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/550.%20Game%20Play%20Analysis%20IV.md) |
-| 🟢 1757 | Recyclable and Low Fat Products | `WHERE`, `AND` | 10/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1757.%20Recyclable%20and%20Low%20Fat%20Products.md) |
-| 🟢 584 | Find Customer Referee | `WHERE`, NULL handling | 10/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/584.%20Find%20Customer%20Referee.md) |
-| 🟢 595 | Big Countries | `WHERE`, `OR` | 10/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/595.%20Big%20Countries.md) |
-| 🟢 1148 | Article Views I | `DISTINCT`, `GROUP BY` | 10/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1148.%20Article%20Views%20I.md) |
-| 🟢 1683 | Invalid Tweets | `LEN()`, string functions | 10/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1683.%20Invalid%20Tweets.md) |
-| 🟢 1378 | Replace Employee ID With The Unique Identifier | `LEFT JOIN` | 10/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1378.%20Replace%20Employee%20ID%20With%20The%20Unique%20Identifier.md) |
-| 🟢 1068 | Product Sales Analysis I | `INNER JOIN` | 10/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1068.%20Product%20Sales%20Analysis%20I.md) |
-| 🟢 1581 | Customer Who Visited but Did Not Make Any Transactions | `LEFT JOIN`, `COUNT`, `GROUP BY` | 10/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1581.%20Customer%20Who%20Visited%20but%20Did%20Not%20Make%20Any%20Transactions.md) |
-| 🟢 197 | Rising Temperature | `LAG()`, window functions, `DATEDIFF` | 10/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/197-rising-temperature.md) |
-| 🟢 1661 | Average Time of Process per Machine | `SELF JOIN`, `AVG`, `ROUND` | 10/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1661.%20Average%20Time%20of%20Process%20per%20Machine.md) |
-| 🟢 577 | Employee Bonus | `LEFT JOIN`, NULL handling | 10/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/577-Employee-Bonus.md) |
-| 🟢 1280 | Students and Examinations | `CROSS JOIN`, subquery, `ISNULL` | 10/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1280.%20Students%20and%20Examinations.md) |
-| 🟢 175 | Combine Two Tables | `JOIN` | 19/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/175*.%20Combine%20Two%20Tables.md) |
-| 🟢 181 | Employees Earning More Than Their Managers | `JOIN`, `HAVING` | 19/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/181*.%20Employees%20Earning%20More%20Than%20Their%20Managers.md) |
-| 🟢 620 | Not Boring Movies | `WHERE`, `MOD`, `ORDER BY` | 11/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/620.%20Not%20Boring%20Movies.md) |
-| 🟢 1251 | Average Selling Price | `LEFT JOIN`, `BETWEEN`, `COALESCE`, `NULLIF`, `ROUND` | 11/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1251.%20Average%20Selling%20Price.md) |
-| 🟢 1075 | Project Employees I | `JOIN`, `AVG`, `ROUND` | 11/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1075.%20Project%20Employees.md) |
-| 🟢 1633 | Percentage of Users Attended a Contest | `GROUP BY`, Subquery, `ROUND` | 11/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1633.%20Percentage%20of%20Users%20Attended%20a%20Contest.md) |
-| 🟢 1211 | Queries Quality and Percentage | `AVG`, `CASE`, `ROUND`, `NULLIF`, `GROUP BY` | 11/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1211.%20Queries%20Quality%20and%20Percentage.md) |
-| 🟢 2356 | Number of Unique Subjects Taught by Each Teacher | `COUNT(DISTINCT)`, `GROUP BY` | 14/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/2356.%20Number%20of%20Unique%20Subjects%20Taught%20by%20Each%20Teacher.md) |
-| 🟢 1141 | User Activity for the Past 30 Days I | `COUNT`, `DISTINCT`, `GROUP BY`, `WHERE` | 14/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1141.%20User%20Activity%20for%20the%20Past%2030%20Days%20I.md) |
-| 🟢 596 | Classes More Than 5 Students | `GROUP BY`, `HAVING` | 14/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/596.%20Classes%20More%20Than%205%20Students.md) |
-| 🟢 1729 | Find Followers Count | `COUNT`, `GROUP BY`, `ORDER BY` | 14/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1729.%20Find%20Followers%20Count.md) |
-| 🟢 619 | Biggest Single Number | `GROUP BY`, `HAVING`, `MAX` | 14/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/619.%20Biggest%20Single%20Number.md) |
-| 🟢 610 | Triangle Judgement | `CASE`, conditional logic | 15/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/610.%20Triangle%20Judgement.md) |
-| 🟢 1731 | The Number of Employees Which Report to Each Employee | `SELF JOIN`, `COUNT`, `GROUP BY` | 14/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1731.%20The%20Number%20of%20Employees%20Which%20Report%20to%20Each%20Employee.md) |
-| 🟢 1789 | Primary Department for Each Employee | `GROUP BY`, `CASE`, aggregation | 14/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1789.%20Primary%20Department%20for%20Each%20Employee.md) |
-| 🟢 1978 | Employees Whose Manager Left the Company | Subquery, `NOT IN`, `WHERE` | 15/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1978.%20Employees%20Whose%20Manager%20Left%20the%20Company.md) |
-| 🟢 1667 | Fix Names in a Table | String Functions, UPPER, LOWER | 15/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1667.%20Fix%20Names%20in%20a%20Table.md) |
-| 🟢 1756 | Patients With a Condition | LIKE, pattern matching | 16/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1756.%20Patients%20With%20a%20Condition.md) |
-| 🟢 196 | Delete Duplicate Emails | CTE, ROW_NUMBER, DELETE | 16/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1822.%20Delete%20Duplicate%20Emails.md) |
-| 🟢 1821 | Group Sold Products By The Date | GROUP BY, STRING_AGG, COUNT | 16/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1821.%20Group%20Sold%20Products%20By%20The%20Date.md) |
-| 🟢 1803 | List The Products Ordered in a Period | JOIN, GROUP BY, HAVING | 16/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1803.%20List%20The%20Products%20Ordered%20in%20a%20Period.md) |
-| 🟢 1824 | Find Users With Valid E‑Mails | LIKE, SUBSTRING, pattern matching | 16/12/2025 | [Ver solução](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1824.%20Find%20Users%20With%20Valid%20E%E2%80%91Mails.md) |
+### 🎯 **Habilidades Demonstradas**
+Este portfólio cobre uma ampla gama de conceitos essenciais de SQL:
+- **✅ Operações de JOIN:** `INNER`, `LEFT`, `SELF JOIN` (ex.: #175, #181, #570).
+- **✅ Agregação e Agrupamento:** `GROUP BY`, `HAVING`, `COUNT`, `SUM`, `AVG`, `MAX/MIN`.
+- **✅ Funções de Janela (Window Functions):** `ROW_NUMBER()`, `LAG()` (ex.: #197, #1174).
+- **✅ Manipulação de Strings e Datas:** `LIKE`, `SUBSTRING`, `PATINDEX`[citation:4], `DATEDIFF`, `FORMAT`.
+- **✅ Lógica Condicional:** `CASE WHEN`, `IF`.
+- **✅ Subqueries e CTEs:** Para resolução de problemas mais complexos (ex.: #1978).
+
+### 📊 **Progresso e Metas**
+- **Trajetória:** Iniciei com filtros básicos (`WHERE`) e rapidamente avancei para joins complexos, agregações e funções de janela.
+- **Meta de Curto Prazo:** Resolver meu primeiro problema **"Hard"** e explorar tópicos como `Recursive CTEs` e otimização de queries.
+- **Meta de Longo Prazo:** Completar planos de estudo estruturados, como o **"SQL 50"** do LeetCode[citation:1], para garantir uma base abrangente.
+
+### 💡 **Aprendizados Chave**
+> "A prática consistente transforma a sintaxe em intuição. Comecei consultando a documentação para cada `JOIN`; hoje, analiso o relacionamento entre as tabelas e a lógica necessária antes de escrever a primeira linha de código."
+
+---
+
+## 👨‍💻 **Para Recrutadores**
+
+Este portfólio é mais do que uma lista de exercícios; é uma demonstração de:
+1.  **Persistência e Aprendizado Contínuo:** Compromisso em melhorar habilidades técnicas de forma consistente.
+2.  **Pensamento Analítico:** Capacidade de decompor um problema de negócio em uma query SQL lógica e eficiente.
+3.  **Atenção a Detalhes:** Cuidado com casos extremos (valores `NULL`, duplicatas, condições de borda).
+4.  **Documentação e Organização:** Habilidade de estruturar e apresentar seu trabalho de forma clara e acessível.
+
+Estou sempre aberto a novos desafios e oportunidades para aplicar e expandir essas habilidades em um ambiente profissional.
+
+---
+**✨ Mantenha-se codando! A evolução é um processo contínuo, e cada query é um passo à frente.**
+
+*Este README é atualizado regularamente conforme novo progresso é feito.*
