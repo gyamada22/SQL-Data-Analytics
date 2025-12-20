@@ -42,6 +42,8 @@
 
 ## 📚 SQL Server — Módulos Estudados (Curso)
 
+Conteúdo estudado cobrindo desde fundamentos até tópicos avançados de SQL Server, incluindo performance, programabilidade e modelagem.
+
 <details>
 <summary><strong>📌 Clique para ver todo o conteúdo estudado</strong></summary>
 
@@ -127,6 +129,3 @@
 
 > **Consistência > intensidade.**  
 > Estudo diário, documentado e orientado a longo prazo.
-
-
-
