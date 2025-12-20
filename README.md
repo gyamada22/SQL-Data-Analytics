@@ -40,18 +40,7 @@
 
 ---
 
-## 📚 Exercícios Estruturados (Curso)
-
-👉 **[Ver todos os exercícios resolvidos](./exercicios-pdf/README.md)**
-
-- ✅ **110+ exercícios práticos**
-- 💻 SQL Server
-- 📊 Do básico ao avançado
-- 🧠 Foco em lógica, não só sintaxe
-
----
-
-## 📚 SQL Server — Módulos Estudados
+## 📚 SQL Server — Módulos Estudados (Curso)
 
 <details>
 <summary><strong>📌 Clique para ver todo o conteúdo estudado</strong></summary>
@@ -86,6 +75,17 @@
 
 </details>
 📅 Período: 27/11/2025 → 09/12/2025  
+
+---
+
+## 📚 Exercícios Estruturados (Curso)
+
+👉 **[Ver todos os exercícios resolvidos](./exercicios-pdf/README.md)**
+
+- ✅ **110+ exercícios práticos**
+- 💻 SQL Server
+- 📊 Do básico ao avançado
+- 🧠 Foco em lógica, não só sintaxe
 
 ---
 
