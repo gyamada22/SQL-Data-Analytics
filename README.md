@@ -18,7 +18,7 @@
 - **Fundamentos & Intermediário:** ✅ 100% concluído  
 - **Avançado:** 🔄 em evolução (performance, otimização, modelagem)
 - **LeetCode SQL:** prática diária (3–5 exercícios/dia), soluções documentadas
-- **Total de exercícios práticos:** 110+
+- **Total de exercícios práticos durante o curso:** 110+
 
 ---
 
