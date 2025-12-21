@@ -1,0 +1,26 @@
+# 180. Consecutive Numbers
+
+**Data:** 20/12/2025  
+**Dificuldade:** Medium  
+**Tópicos:** SQL, CTE, Window Function, LAG, LEAD, ORDER BY  
+**Link:** https://leetcode.com/problems/consecutive-numbers/description/?envType=study-plan-v2&envId=top-sql-50
+
+## Descrição
+Escreva uma solução para encontrar os **números que aparecem pelo menos três vezes consecutivas** na tabela `Logs`.
+
+## Solução (SQL Server)
+
+```sql
+WITH ordered_logs AS (
+    SELECT
+        num,
+        LAG(num)  OVER (ORDER BY id) AS prev_num,
+        LEAD(num) OVER (ORDER BY id) AS next_num
+    FROM Logs
+)
+SELECT DISTINCT
+    num AS ConsecutiveNums
+FROM ordered_logs
+WHERE
+    num = prev_num
+    AND num = next_num;
