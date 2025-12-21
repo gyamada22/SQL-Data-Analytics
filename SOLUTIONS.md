@@ -2,9 +2,9 @@
 
 ## 📊 Visão Geral
 
-**Total de Soluções:** 40 | **Easy:** 34 | **Medium:** 6
+**Total de Soluções:** 40 | **Easy:** 34 | **Medium:** 9
 
-**Última Atualização:** 19 de Dezembro de 2025
+**Última Atualização:** 20 de Dezembro de 2025
 
 - Este repositório documenta minha jornada de aprendizado e prática de SQL através da resolução de problemas no LeetCode. 
 - Meu objetivo é demonstrar domínio progressivo de conceitos, pensamento analítico e habilidades de resolução de problemas relevantes.
@@ -17,16 +17,20 @@
 
 ## 📝 Catálogo de Soluções
 
-### 🟡 **Problemas Medium (6)**
+### 🟡 **Problemas Medium (9)**
 
 | ID | Problema | Tópicos Principais | Link para a Solução |
 |----|----------|-------------------|---------------------|
+| 176 | Second Highest Salary | `CTE`, `DENSE_RANK`, `Window Function`, `ORDER BY` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/176.%20Second%20Highest%20Salary.md) |
 | 550 | Game Play Analysis IV | `JOIN`, `ROUND`, `MIN`, `DATEADD` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/550.%20Game%20Play%20Analysis%20IV.md) |
 | 570 | Managers With at Least 5 Direct Reports | `SELF JOIN`, `GROUP BY`, `COUNT`, `HAVING` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/570.%20Managers%20With%20at%20Least%205%20Direct%20Reports.md) |
+| 1045 | Customers Who Bought All Products | `GROUP BY`, `HAVING`, `COUNT`, `Subquery` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1045.%20Customers%20Who%20Bought%20All%20Products.md) |
 | 1070 | Product Sales Analysis III | `CTE`, `MIN`, `GROUP BY`, `JOIN` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1070.%20Product%20Sales%20Analysis%20III.md) |
 | 1174 | Immediate Food Delivery II | `ROW_NUMBER`, `CASE`, `ROUND` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1174.%20Immediate%20Food%20Delivery%20II.md) |
 | 1193 | Monthly Transactions I | `GROUP BY`, `FORMAT`, `SUM`, `COUNT` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1193.%20Monthly%20Transactions%20I.md) |
+| 180 | Consecutive Numbers | `CTE`, `LAG`, `LEAD`, `Window Function` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/180.%20Consecutive%20Numbers.md) |
 | 1934 | Confirmation Rate | `LEFT JOIN`, `GROUP BY`, `CASE`, `ROUND` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1934.%20Confirmation%20Rate.md) |
+
 
 ### 🟢 **Problemas Easy (34)**
 
