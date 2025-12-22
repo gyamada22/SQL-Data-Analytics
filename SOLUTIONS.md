@@ -2,9 +2,9 @@
 
 ## 📊 Visão Geral
 
-**Total de Soluções:** 43 | **Easy:** 34 | **Medium:** 9
+**Total de Soluções:** 43 | **Easy:** 34 | **Medium:** 12
 
-**Última Atualização:** 20 de Dezembro de 2025
+**Última Atualização:** 21 de Dezembro de 2025
 
 - Este repositório documenta minha jornada de aprendizado e prática de SQL através da resolução de problemas no LeetCode. 
 - Meu objetivo é demonstrar domínio progressivo de conceitos, pensamento analítico e habilidades de resolução de problemas relevantes.
@@ -17,7 +17,7 @@
 
 ## 📝 Catálogo de Soluções
 
-### 🟡 **Problemas Medium (9)**
+### 🟡 **Problemas Medium (12)**
 
 | ID | Problema | Tópicos Principais | Link para a Solução |
 |----|----------|-------------------|---------------------|
@@ -30,6 +30,10 @@
 | 1193 | Monthly Transactions I | `GROUP BY`, `FORMAT`, `SUM`, `COUNT` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1193.%20Monthly%20Transactions%20I.md) |
 | 180 | Consecutive Numbers | `CTE`, `LAG`, `LEAD`, `Window Function` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/180.%20Consecutive%20Numbers.md) |
 | 1934 | Confirmation Rate | `LEFT JOIN`, `GROUP BY`, `CASE`, `ROUND` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1934.%20Confirmation%20Rate.md) |
+| 1907 | Count Salary Categories | `GROUP BY`, `CASE`, `SUM`, `COUNT` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1907.%20Count%20Salary%20Categories.md) |
+| 1204 | Last Person to Fit in the Bus | `ORDER BY`, `SUM`, `LIMIT`, `CTE` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1204.%20Last%20Person%20to%20Fit%20in%20the%20Bus.md) |
+| 1164 | Product Price at a Given Date | `JOIN`, `WHERE`, `MIN`, `MAX` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1164.%20Product%20Price%20at%20a%20Given%20Date.md) |
+
 
 
 ### 🟢 **Problemas Easy (34)**
