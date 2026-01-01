@@ -17,7 +17,7 @@
 
 ## 📝 Catálogo de Soluções
 
-### 🟡 **Problemas Medium (14)**
+### 🟡 **Problemas Medium (15)**
 
 | ID   | Problema | Tópicos Principais | Link para a Solução |
 |------|----------|-------------------|---------------------|
@@ -32,9 +32,11 @@
 | 1174 | Immediate Food Delivery II | `ROW_NUMBER`, `CASE`, `ROUND` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1174.%20Immediate%20Food%20Delivery%20II.md) |
 | 1193 | Monthly Transactions I | `GROUP BY`, `FORMAT`, `SUM`, `COUNT` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1193.%20Monthly%20Transactions%20I.md) |
 | 1204 | Last Person to Fit in the Bus | `ORDER BY`, `SUM`, `CTE` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1204.%20Last%20Person%20to%20Fit%20in%20the%20Bus.md) |
+| 1321 | Restaurant Growth | `Window Functions`, `SUM`, `AVG`, `ROW_NUMBER` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/1321.%20Restaurant%20Growth.md) |
 | 1341 | Movie Rating | `CTE`, `GROUP BY`, `ORDER BY`, `AVG`, `COUNT`, `UNION ALL` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/1341.%20Movie%20Rating.md) |
 | 1907 | Count Salary Categories | `GROUP BY`, `CASE`, `SUM`, `COUNT` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1907.%20Count%20Salary%20Categories.md) |
 | 1934 | Confirmation Rate | `LEFT JOIN`, `GROUP BY`, `CASE`, `ROUND` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1934.%20Confirmation%20Rate.md) |
+
 
 ### 🟢 **Problemas Easy (41)**
 
