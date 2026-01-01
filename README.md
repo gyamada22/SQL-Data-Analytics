@@ -7,7 +7,7 @@
 ## 👤 Visão Geral
 
 - ✅ **SQL Server — Intermediário consolidado**
-- 🔁 **LeetCode SQL:** 🔥 55+ problemas resolvidos e documentados (prática diária para consolidar)
+- 🔁 **LeetCode SQL:** 🔥 60+ problemas resolvidos e documentados (prática diária para consolidar)
 - 📚 Conteúdo teórico concluído, foco atual em **fixação, performance e aplicação**
 - 🧠 Abordagem orientada a **resolução de problemas analíticos**
 
@@ -29,8 +29,8 @@
 ### 📈 Progresso Atual
 | Dificuldade | Resolvidos |
 |------------|------------|
-| 🟢 Easy | 41 |
-| 🟡 Medium | 14 |
+| 🟢 Easy | 44 |
+| 🟡 Medium | 15 |
 | 🔴 Hard | 0 |
 
 📌 Todas as soluções incluem:
