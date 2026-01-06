@@ -11,7 +11,7 @@
 
 ### 🔗 Links
 - **📝 Meu Perfil no LeetCode:** [gyamada22](https://leetcode.com/u/gyamada22/)
-- **📂 Estrutura do Repositório:** As soluções estão organizadas em pastas por dificuldade (`easy/`, `medium/`).
+- **📂 Estrutura do Repositório:** As soluções estão organizadas em pastas por dificuldade (`easy/`, `medium/`, `hard/`).
 
 ---
 
