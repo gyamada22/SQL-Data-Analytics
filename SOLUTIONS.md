@@ -2,9 +2,9 @@
 
 ## 📊 Visão Geral
 
-**Total de Soluções:** 59 | **Easy:** 44 | **Medium:** 15
+**Total de Soluções:** 63 | **Easy:** 45 | **Medium:** 17 | **Hard:** 1
 
-**Última Atualização:** 01 de Janeiro de 2026
+**Última Atualização:** 05 de Janeiro de 2026
 
 - Este repositório documenta minha jornada de aprendizado e prática de SQL através da resolução de problemas no LeetCode. 
 - Meu objetivo é demonstrar domínio progressivo de conceitos, pensamento analítico e habilidades de resolução de problemas relevantes.
@@ -17,7 +17,14 @@
 
 ## 📝 Catálogo de Soluções
 
-### 🟡 **Problemas Medium (15)**
+### 🔴 **Problemas Hard (1)**
+
+| ID  | Problema | Tópicos Principais | Link para a Solução |
+|-----|----------|-------------------|---------------------|
+| 185 | Department Top Three Salaries | `Window Functions`, `DENSE_RANK`, `PARTITION BY`, `JOIN` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/hard/185.%20Department%20Top%20Three%20Salaries.md) |
+
+
+### 🟡 **Problemas Medium (17)**
 
 | ID   | Problema | Tópicos Principais | Link para a Solução |
 |------|----------|-------------------|---------------------|
@@ -25,6 +32,7 @@
 | 180  | Consecutive Numbers | `CTE`, `LAG`, `LEAD`, `Window Function` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/180.%20Consecutive%20Numbers.md) |
 | 550  | Game Play Analysis IV | `JOIN`, `ROUND`, `MIN`, `DATEADD` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/550.%20Game%20Play%20Analysis%20IV.md) |
 | 570  | Managers With at Least 5 Direct Reports | `SELF JOIN`, `GROUP BY`, `COUNT`, `HAVING` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/570.%20Managers%20With%20at%20Least%205%20Direct%20Reports.md) |
+| 602  | Friend Requests II: Who Has the Most Friends | `CTE`, `UNION ALL`, `GROUP BY`, `ORDER BY` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/602.%20Friend%20Requests%20II%3A%20Who%20Has%20the%20Most%20Friends.md) |
 | 626  | Exchange Seats | `JOIN`, `CASE`, `ROW_NUMBER`, `ORDER BY` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/626.%20Exchange%20Seats.md) |
 | 1045 | Customers Who Bought All Products | `GROUP BY`, `HAVING`, `COUNT`, `Subquery` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1045.%20Customers%20Who%20Bought%20All%20Products.md) |
 | 1070 | Product Sales Analysis III | `CTE`, `MIN`, `GROUP BY`, `JOIN` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1070.%20Product%20Sales%20Analysis%20III.md) |
@@ -36,9 +44,11 @@
 | 1341 | Movie Rating | `CTE`, `GROUP BY`, `ORDER BY`, `AVG`, `COUNT`, `UNION ALL` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/1341.%20Movie%20Rating.md) |
 | 1907 | Count Salary Categories | `GROUP BY`, `CASE`, `SUM`, `COUNT` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1907.%20Count%20Salary%20Categories.md) |
 | 1934 | Confirmation Rate | `LEFT JOIN`, `GROUP BY`, `CASE`, `ROUND` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1934.%20Confirmation%20Rate.md) |
+| 585  | Investments in 2016 | `CTE`, `Window Functions`, `PARTITION BY`, `COUNT` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/585.%20Investments%20in%202016.md) |
 
 
-### 🟢 **Problemas Easy (44)**
+
+### 🟢 **Problemas Easy (45)**
 
 | ID   | Problema | Tópicos Principais | Link para a Solução |
 |------|----------|-------------------|---------------------|
@@ -59,6 +69,7 @@
 | 619  | Biggest Single Number | `GROUP BY`, `HAVING`, `MAX` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/619.%20Biggest%20Single%20Number.md) |
 | 620  | Not Boring Movies | `WHERE`, `MOD`, `ORDER BY` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/620.%20Not%20Boring%20Movies.md) |
 | 627  | Swap Sex of Employees | `UPDATE`, `CASE` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/easy/627.%20Swap%20Sex%20of%20Employees.md) |
+| 1050 | Actors and Directors Who Cooperated At Least Three Times | `GROUP BY`, `COUNT`, `HAVING` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/easy/1050.%20Actors%20and%20Directors%20Who%20Cooperated%20At%20Least%20Three%20Times.md) |
 | 1068 | Product Sales Analysis I | `INNER JOIN` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1068.%20Product%20Sales%20Analysis%20I.md) |
 | 1075 | Project Employees I | `JOIN`, `AVG`, `ROUND` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1075.%20Project%20Employees.md) |
 | 1141 | User Activity for the Past 30 Days I | `WHERE`, `COUNT`, `DISTINCT` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1141.%20User%20Activity%20for%20the%20Past%2030%20Days%20I.md) |
