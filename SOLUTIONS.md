@@ -2,9 +2,9 @@
 
 ## 📊 Visão Geral
 
-**Total de Soluções:** 63 | **Easy:** 45 | **Medium:** 17 | **Hard:** 1
+**Total de Soluções:** 66 | **Easy:** 48 | **Medium:** 17 | **Hard:** 1
 
-**Última Atualização:** 05 de Janeiro de 2026
+**Última Atualização:** 08 de Janeiro de 2026
 
 - Este repositório documenta minha jornada de aprendizado e prática de SQL através da resolução de problemas no LeetCode. 
 - Meu objetivo é demonstrar domínio progressivo de conceitos, pensamento analítico e habilidades de resolução de problemas relevantes.
@@ -48,7 +48,7 @@
 
 
 
-### 🟢 **Problemas Easy (45)**
+### 🟢 **Problemas Easy (48)**
 
 | ID   | Problema | Tópicos Principais | Link para a Solução |
 |------|----------|-------------------|---------------------|
@@ -72,12 +72,15 @@
 | 1050 | Actors and Directors Who Cooperated At Least Three Times | `GROUP BY`, `COUNT`, `HAVING` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/easy/1050.%20Actors%20and%20Directors%20Who%20Cooperated%20At%20Least%20Three%20Times.md) |
 | 1068 | Product Sales Analysis I | `INNER JOIN` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1068.%20Product%20Sales%20Analysis%20I.md) |
 | 1075 | Project Employees I | `JOIN`, `AVG`, `ROUND` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1075.%20Project%20Employees.md) |
+| 1084 | Sales Analysis III | `JOIN`, `GROUP BY`, `HAVING` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/easy/1084.%20Sales%20Analysis%20III.md) |
 | 1141 | User Activity for the Past 30 Days I | `WHERE`, `COUNT`, `DISTINCT` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1141.%20User%20Activity%20for%20the%20Past%2030%20Days%20I.md) |
 | 1148 | Article Views I | `DISTINCT`, `WHERE` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1148.%20Article%20Views%20I.md) |
+| 1179 | Reformat Department Table | `GROUP BY`, `CASE`, `Pivot` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/easy/1179.%20Reformat%20Department%20Table.md) |
 | 1211 | Queries Quality and Percentage | `AVG`, `CASE`, `ROUND` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1211.%20Queries%20Quality%20and%20Percentage.md) |
 | 1251 | Average Selling Price | `LEFT JOIN`, `BETWEEN`, `ROUND` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1251.%20Average%20Selling%20Price.md) |
 | 1280 | Students and Examinations | `CROSS JOIN`, `COUNT`, `ISNULL` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1280.%20Students%20and%20Examinations.md) |
 | 1378 | Replace Employee ID With The Unique Identifier | `LEFT JOIN` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1378.%20Replace%20Employee%20ID%20With%20The%20Unique%20Identifier.md) |
+| 1407 | Top Travellers | `JOIN`, `LEFT JOIN`, `GROUP BY`, `ISNULL`, `ORDER BY` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/easy/1407.%20Top%20Travellers.md) |
 | 1581 | Customer Who Visited but Did Not Make Any Transactions | `LEFT JOIN`, `COUNT`, `GROUP BY` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1581.%20Customer%20Who%20Visited%20but%20Did%20Not%20Make%20Any%20Transactions.md) |
 | 1587 | Bank Account Summary II | `JOIN`, `GROUP BY`, `HAVING` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/easy/1587.%20Bank%20Account%20Summary%20II.md) |
 | 1633 | Percentage of Users Attended a Contest | `GROUP BY`, `ROUND`, `SUBQUERY` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1633.%20Percentage%20of%20Users%20Attended%20a%20Contest.md) |
