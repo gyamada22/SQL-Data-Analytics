@@ -1,0 +1,67 @@
+# 3642. Find Books with Polarized Opinions
+
+**Data:** 14/01/2026  
+**Dificuldade:** Easy  
+**Tópicos:** SQL, CTE, GROUP BY, Aggregations, Business Logic  
+**Link:** https://leetcode.com/problems/find-books-with-polarized-opinions/description/
+
+## Descrição
+Escreva uma solução para encontrar livros com **opiniões polarizadas**, ou seja, livros que:
+
+- Tenham recebido **pelo menos 5 avaliações**
+- Possuam avaliações **muito altas (≥ 4)** e **muito baixas (≤ 2)**
+- Tenham pelo menos **60% das avaliações em valores extremos** (1, 2, 4 ou 5)
+
+Além disso, precisamos calcular:
+- `rating_spread`: diferença entre a maior e a menor nota  
+- `polarization_score`: proporção de avaliações extremas sobre o total  
+
+Esses critérios ajudam a identificar livros que dividem fortemente a opinião dos leitores.
+
+---
+
+## Solução (SQL Server)
+
+```sql
+WITH rating_stats AS (
+    SELECT  
+        bk.book_id,
+        bk.title,
+        bk.author,
+        bk.genre,
+        bk.pages,
+        MAX(sess.session_rating) AS max_rating,
+        MIN(sess.session_rating) AS min_rating,
+        COUNT(sess.book_id) AS total_sessions,
+        SUM(
+            CASE 
+                WHEN sess.session_rating IN (1, 2, 4, 5) THEN 1 
+                ELSE 0 
+            END
+        ) AS extreme_count
+    FROM Books bk
+    JOIN Reading_Sessions sess 
+        ON bk.book_id = sess.book_id
+    GROUP BY 
+        bk.book_id, 
+        bk.title, 
+        bk.author, 
+        bk.genre, 
+        bk.pages
+)
+SELECT  
+    book_id,
+    title,
+    author,
+    genre,
+    pages,
+    max_rating - min_rating AS rating_spread,
+    CAST(extreme_count * 1.0 / total_sessions AS DECIMAL(10,2)) AS polarization_score
+FROM rating_stats
+WHERE total_sessions >= 5
+  AND max_rating >= 4
+  AND min_rating <= 2
+  AND (extreme_count * 1.0 / total_sessions) >= 0.6
+ORDER BY 
+    CAST(extreme_count * 1.0 / total_sessions AS DECIMAL(10,2)) DESC,
+    title DESC;
