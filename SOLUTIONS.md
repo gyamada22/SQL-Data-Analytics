@@ -2,9 +2,9 @@
 
 ## 📊 Visão Geral
 
-**Total de Soluções:** 66 | **Easy:** 48 | **Medium:** 17 | **Hard:** 1
+**Total de Soluções:** 70 | **Easy:** 50 | **Medium:** 19 | **Hard:** 1
 
-**Última Atualização:** 08 de Janeiro de 2026
+**Última Atualização:** 19 de Janeiro de 2026
 
 - Este repositório documenta minha jornada de aprendizado e prática de SQL através da resolução de problemas no LeetCode. 
 - Meu objetivo é demonstrar domínio progressivo de conceitos, pensamento analítico e habilidades de resolução de problemas relevantes.
@@ -24,7 +24,7 @@
 | 185 | Department Top Three Salaries | `Window Functions`, `DENSE_RANK`, `PARTITION BY`, `JOIN` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/hard/185.%20Department%20Top%20Three%20Salaries.md) |
 
 
-### 🟡 **Problemas Medium (17)**
+### 🟡 **Problemas Medium (19)**
 
 | ID   | Problema | Tópicos Principais | Link para a Solução |
 |------|----------|-------------------|---------------------|
@@ -32,7 +32,7 @@
 | 180  | Consecutive Numbers | `CTE`, `LAG`, `LEAD`, `Window Function` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/180.%20Consecutive%20Numbers.md) |
 | 550  | Game Play Analysis IV | `JOIN`, `ROUND`, `MIN`, `DATEADD` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/550.%20Game%20Play%20Analysis%20IV.md) |
 | 570  | Managers With at Least 5 Direct Reports | `SELF JOIN`, `GROUP BY`, `COUNT`, `HAVING` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/570.%20Managers%20With%20at%20Least%205%20Direct%20Reports.md) |
-| 602  | Friend Requests II: Who Has the Most Friends | `CTE`, `UNION ALL`, `GROUP BY`, `ORDER BY` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/602.%20Friend%20Requests%20II%3A%20Who%20Has%20the%20Most%20Friends.md) |
+| 602  | Friend Requests II: Who Has the Most Friends | `CTE`, `UNION ALL`, `GROUP BY`, `ORDER BY` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/602.%20Friend%20Requests%20II%3A%20Who%20Has%20the%20Most%20Friends.md) | 585  | Investments in 2016 | `CTE`, `Window Functions`, `PARTITION BY`, `COUNT` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/585.%20Investments%20in%202016.md) |
 | 626  | Exchange Seats | `JOIN`, `CASE`, `ROW_NUMBER`, `ORDER BY` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/626.%20Exchange%20Seats.md) |
 | 1045 | Customers Who Bought All Products | `GROUP BY`, `HAVING`, `COUNT`, `Subquery` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1045.%20Customers%20Who%20Bought%20All%20Products.md) |
 | 1070 | Product Sales Analysis III | `CTE`, `MIN`, `GROUP BY`, `JOIN` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1070.%20Product%20Sales%20Analysis%20III.md) |
@@ -42,13 +42,14 @@
 | 1204 | Last Person to Fit in the Bus | `ORDER BY`, `SUM`, `CTE` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1204.%20Last%20Person%20to%20Fit%20in%20the%20Bus.md) |
 | 1321 | Restaurant Growth | `Window Functions`, `SUM`, `AVG`, `ROW_NUMBER` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/1321.%20Restaurant%20Growth.md) |
 | 1341 | Movie Rating | `CTE`, `GROUP BY`, `ORDER BY`, `AVG`, `COUNT`, `UNION ALL` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/1341.%20Movie%20Rating.md) |
+| 1393 | Capital Gain/Loss | `CASE`, `GROUP BY`, `SUM` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/1393.%20Capital%20Gain%20Loss.md) |
 | 1907 | Count Salary Categories | `GROUP BY`, `CASE`, `SUM`, `COUNT` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1907.%20Count%20Salary%20Categories.md) |
 | 1934 | Confirmation Rate | `LEFT JOIN`, `GROUP BY`, `CASE`, `ROUND` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1934.%20Confirmation%20Rate.md) |
-| 585  | Investments in 2016 | `CTE`, `Window Functions`, `PARTITION BY`, `COUNT` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/585.%20Investments%20in%202016.md) |
+| 3475 | DNA Pattern Recognition | `REGEXP`, `LIKE`, `WHERE`, `ORDER BY` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/3475.%20DNA%20Pattern%20Recognition.md) |
 
 
 
-### 🟢 **Problemas Easy (48)**
+### 🟢 **Problemas Easy (50)**
 
 | ID   | Problema | Tópicos Principais | Link para a Solução |
 |------|----------|-------------------|---------------------|
@@ -58,6 +59,7 @@
 | 183  | Customers Who Never Order | `LEFT JOIN`, `NULL` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/easy/183.%20Customers%20Who%20Never%20Order.md) |
 | 196  | Delete Duplicate Emails | `CTE`, `ROW_NUMBER`, `DELETE` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1822.%20Delete%20Duplicate%20Emails.md) |
 | 197  | Rising Temperature | `LAG()`, `DATEDIFF` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/197-rising-temperature.md) |
+| 465  | Find Products with Valid Serial Numbers | `REGEXP`, `LIKE`, `WHERE`, `ORDER BY` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/easy/465.%20Find%20Products%20with%20Valid%20Serial%20Numbers.md) |
 | 511  | Game Play Analysis I | `DENSE_RANK`, `Window Function` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/easy/511.%20Game%20Play%20Analysis%20I.md) |
 | 577  | Employee Bonus | `LEFT JOIN`, `NULL` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/577-Employee-Bonus.md) |
 | 584  | Find Customer Referee | `WHERE`, `NULL` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/584.%20Find%20Customer%20Referee.md) |
@@ -100,6 +102,7 @@
 | 1978 | Employees Whose Manager Left the Company | `SUBQUERY`, `NOT IN` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1978.%20Employees%20Whose%20Manager%20Left%20the%20Company.md) |
 | 1741 | Find Total Time Spent by Each Employee | `GROUP BY`, `SUM`, `CTE` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/easy/1741.%20Find%20Total%20Time%20Spent%20by%20Each%20Employee.md) |
 | 2356 | Number of Unique Subjects Taught by Each Teacher | `COUNT(DISTINCT)`, `GROUP BY` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/2356.%20Number%20of%20Unique%20Subjects%20Taught%20by%20Each%20Teacher.md) |
+| 3793 | Find Users with High Token Usage | `GROUP BY`, `HAVING`, `SUM`, `ORDER BY` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/easy/3793.%20Find%20Users%20with%20High%20Token%20Usage.md) |
 
 
 ---
