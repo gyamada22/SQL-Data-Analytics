@@ -2,9 +2,9 @@
 
 ## 📊 Visão Geral
 
-**Total de Soluções:** 70 | **Easy:** 50 | **Medium:** 25 | **Hard:** 2
+**Total de Soluções:** 83 | **Easy:** 56 | **Medium:** 25 | **Hard:** 2
 
-**Última Atualização:** 19 de Janeiro de 2026
+**Última Atualização:** 26 de Janeiro de 2026
 
 - Este repositório documenta minha jornada de aprendizado e prática de SQL através da resolução de problemas no LeetCode. 
 - Meu objetivo é demonstrar domínio progressivo de conceitos, pensamento analítico e habilidades de resolução de problemas relevantes.
@@ -57,7 +57,7 @@
 
 
 
-### 🟢 **Problemas Easy (50)**
+### 🟢 **Problemas Easy (56)**
 
 | ID   | Problema | Tópicos Principais | Link para a Solução |
 |------|----------|-------------------|---------------------|
@@ -107,9 +107,15 @@
 | 1803 | List The Products Ordered in a Period | `JOIN`, `GROUP BY`, `HAVING` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1803.%20List%20The%20Products%20Ordered%20in%20a%20Period.md) |
 | 1821 | Group Sold Products By The Date | `GROUP BY`, `STRING_AGG` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1821.%20Group%20Sold%20Products%20By%20The%20Date.md) |
 | 1824 | Find Users With Valid E-Mails | `LIKE` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1824.%20Find%20Users%20With%20Valid%20E%E2%80%91Mails.md) |
+| 1873 | Calculate Special Bonus          | `CASE`, `MOD`, `LEFT`, `ORDER BY`                                                   | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/easy/1873.%20Calculate%20Special%20Bonus.md) |
+| 1890 | The Latest Login in 2020         | `CTE`, `DENSE_RANK`, `Window Function`, `YEAR`, `ORDER BY`                          | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/easy/1890.%20The%20Latest%20Login%20in%202020.md) |
+| 1965 | Employees With Missing Information | `LEFT JOIN`, `UNION ALL`, `NULL`, `ORDER BY`                                      | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/easy/1965.%20Employees%20With%20Missing%20Information.md) |
 | 1978 | Employees Whose Manager Left the Company | `SUBQUERY`, `NOT IN` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/1978.%20Employees%20Whose%20Manager%20Left%20the%20Company.md) |
 | 1741 | Find Total Time Spent by Each Employee | `GROUP BY`, `SUM`, `CTE` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/easy/1741.%20Find%20Total%20Time%20Spent%20by%20Each%20Employee.md) |
 | 2356 | Number of Unique Subjects Taught by Each Teacher | `COUNT(DISTINCT)`, `GROUP BY` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/easy/2356.%20Number%20of%20Unique%20Subjects%20Taught%20by%20Each%20Teacher.md) |
+| 3436 | Find Valid Emails                | `LIKE`, `CHARINDEX`, `SUBSTRING`, `LEN`, Validação de Strings, `ORDER BY`           | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/easy/3436.%20Find%20Valid%20Emails.md) |
+| 3570 | Find Books with No Available Copies | `CTE`, `LEFT JOIN`, `COUNT`, `COALESCE`, `GROUP BY`, `ORDER BY`                  | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/easy/3570.%20Find%20Books%20with%20No%20Available%20Copies.md) |
+| 3642 | Find Books with Polarized Opinions | `CTE`, `GROUP BY`, `MAX`, `MIN`, `CASE`, `COUNT`, `SUM`, `CAST`, `ORDER BY`       | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/easy/3642.%20Find%20Books%20with%20Polarized%20Opinions.md) |
 | 3793 | Find Users with High Token Usage | `GROUP BY`, `HAVING`, `SUM`, `ORDER BY` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/easy/3793.%20Find%20Users%20with%20High%20Token%20Usage.md) |
 
 
