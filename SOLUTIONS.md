@@ -2,7 +2,7 @@
 
 ## 📊 Visão Geral
 
-**Total de Soluções:** 70 | **Easy:** 50 | **Medium:** 19 | **Hard:** 1
+**Total de Soluções:** 70 | **Easy:** 50 | **Medium:** 25 | **Hard:** 2
 
 **Última Atualização:** 19 de Janeiro de 2026
 
@@ -17,22 +17,26 @@
 
 ## 📝 Catálogo de Soluções
 
-### 🔴 **Problemas Hard (1)**
+### 🔴 **Problemas Hard (2)**
 
 | ID  | Problema | Tópicos Principais | Link para a Solução |
 |-----|----------|-------------------|---------------------|
 | 185 | Department Top Three Salaries | `Window Functions`, `DENSE_RANK`, `PARTITION BY`, `JOIN` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/hard/185.%20Department%20Top%20Three%20Salaries.md) |
+| 3554 | Find Category Recommendation Pairs | `CTE`, `Self Join`, `GROUP BY`, `COUNT`, `Recommendation`      | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/hard/3554.%20Find%20Category%20Recommendation%20Pairs.md) |
 
 
-### 🟡 **Problemas Medium (19)**
+### 🟡 **Problemas Medium (25)**
 
 | ID   | Problema | Tópicos Principais | Link para a Solução |
 |------|----------|-------------------|---------------------|
 | 176  | Second Highest Salary | `CTE`, `DENSE_RANK`, `Window Function`, `ORDER BY` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/176.%20Second%20Highest%20Salary.md) |
+| 178  | Rank Scores                      | `DENSE_RANK`, `Window Function`, `ORDER BY`                  | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/178.%20Rank%20Scores.md) |
 | 180  | Consecutive Numbers | `CTE`, `LAG`, `LEAD`, `Window Function` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/180.%20Consecutive%20Numbers.md) |
 | 550  | Game Play Analysis IV | `JOIN`, `ROUND`, `MIN`, `DATEADD` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/550.%20Game%20Play%20Analysis%20IV.md) |
 | 570  | Managers With at Least 5 Direct Reports | `SELF JOIN`, `GROUP BY`, `COUNT`, `HAVING` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/570.%20Managers%20With%20at%20Least%205%20Direct%20Reports.md) |
-| 602  | Friend Requests II: Who Has the Most Friends | `CTE`, `UNION ALL`, `GROUP BY`, `ORDER BY` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/602.%20Friend%20Requests%20II%3A%20Who%20Has%20the%20Most%20Friends.md) | 585  | Investments in 2016 | `CTE`, `Window Functions`, `PARTITION BY`, `COUNT` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/585.%20Investments%20in%202016.md) |
+| 602  | Friend Requests II: Who Has the Most Friends | `CTE`, `UNION ALL`, `GROUP BY`, `ORDER BY` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/602.%20Friend%20Requests%20II%3A%20Who%20Has%20the%20Most%20Friends.md)
+| 585  | Investments in 2016 | `CTE`, `Window Functions`, `PARTITION BY`, `COUNT` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/585.%20Investments%20in%202016.md) |
+| 608  | Tree Node                        | `CASE`, `Subquery`, `NULL`, `Classification`                 | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/608.%20Tree%20Node.md) |
 | 626  | Exchange Seats | `JOIN`, `CASE`, `ROW_NUMBER`, `ORDER BY` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/626.%20Exchange%20Seats.md) |
 | 1045 | Customers Who Bought All Products | `GROUP BY`, `HAVING`, `COUNT`, `Subquery` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1045.%20Customers%20Who%20Bought%20All%20Products.md) |
 | 1070 | Product Sales Analysis III | `CTE`, `MIN`, `GROUP BY`, `JOIN` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1070.%20Product%20Sales%20Analysis%20III.md) |
@@ -45,7 +49,11 @@
 | 1393 | Capital Gain/Loss | `CASE`, `GROUP BY`, `SUM` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/1393.%20Capital%20Gain%20Loss.md) |
 | 1907 | Count Salary Categories | `GROUP BY`, `CASE`, `SUM`, `COUNT` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1907.%20Count%20Salary%20Categories.md) |
 | 1934 | Confirmation Rate | `LEFT JOIN`, `GROUP BY`, `CASE`, `ROUND` | [Ver Código](https://github.com/gyamada22/sql-data-engineering/blob/main/medium/1934.%20Confirmation%20Rate.md) |
+| 3220 | Odd and Even Transactions        | `CTE`, `CASE`, `SUM`, `GROUP BY`, `Aggregation`              | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/3220.%20Odd%20and%20Even%20Transactions.md) |
 | 3475 | DNA Pattern Recognition | `REGEXP`, `LIKE`, `WHERE`, `ORDER BY` | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/3475.%20DNA%20Pattern%20Recognition.md) |
+| 3497 | Analyze Subscription Conversion  | `CTE`, `GROUP BY`, `AVG`, `ROUND`, `JOIN`                    | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/3497.%20Analyze%20Subscription%20Conversion.md) |
+| 3564 | Seasonal Sales Analysis          | `CTE`, `Window Function`, `CASE`, `ROW_NUMBER`, `Ranking`    | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/3564.%20Seasonal%20Sales%20Analysis.md) |
+| 3657 | Find Loyal Customers             | `CTE`, `CASE`, `GROUP BY`, `DATEDIFF`, `Filtering`           | [Ver Código](https://github.com/gyamada22/SQL-Data-Analytics/blob/main/medium/3657.%20Find%20Loyal%20Customers.md) |
 
 
 
